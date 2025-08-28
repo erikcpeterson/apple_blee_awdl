@@ -1,0 +1,22 @@
+# Requirements for ble_exploit.py
+# Apple device sniffer with chained AWDL 802.11 capture using OWL
+
+# Core dependencies
+urllib3>=1.26.0
+requests>=2.25.0
+npyscreen>=1.0.0
+prettytable>=2.0.0
+
+# Bluetooth dependencies
+# Note: PyBluez may require system-level bluetooth development libraries
+# On Ubuntu/Debian: sudo apt-get install libbluetooth-dev
+# On CentOS/RHEL: sudo yum install bluez-libs-devel
+PyBluez>=0.23
+
+# Optional: For enhanced Bluetooth functionality
+# pyshark>=0.6.0  # Alternative to tshark for packet analysis
+
+# Development dependencies (optional)
+# pytest>=6.0.0  # For testing
+# black>=21.0.0  # For code formatting
+# flake8>=3.8.0  # For linting 
